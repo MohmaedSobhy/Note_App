@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".MyActivity.ScreenActivity">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:src="@mipmap/capture"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Ideas"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:layout_below="@+id/imageview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/firstdes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="I learn fast and I take note"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_below="@+id/header_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/seconddes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="of what I've been told"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:layout_below="@+id/firstdes"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp" />
+
+
+
+    </RelativeLayout>
+
+
+</layout>

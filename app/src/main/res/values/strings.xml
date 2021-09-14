@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="mynotes">My Notes</string>
+    <string name="search">Search</string>
+    <string name="pick">pick a color</string>
+    <string name="Delete">Delete Note</string>
+    <string name="AddLink">Add Link</string>
+    <string name="Gallery"> Add Image </string>
+    <string name="favourite">Add to favoutie</string>
+    <string name="remove">Un Favourite</string>
+</resources>

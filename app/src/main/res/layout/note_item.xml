@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/imgNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                 />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:layout_below="@+id/imgNote"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:padding="5dp"
+                android:id="@+id/SubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:layout_marginTop="10dp"
+                android:text="SubTitle"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <TextView
+                android:padding="5dp"
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SubTitle"
+                android:layout_marginTop="10dp"
+                android:text="25/10/2020"
+                android:textColor="#7E7D7D" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
